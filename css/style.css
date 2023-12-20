@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    width: 1450px;
+    height: 50px;
+    background-color: #B90470;
+    display: flex;
+    align-items: center;
+gap: 50px;
+padding: 10px;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+.title{
+    font-family: poppins;
+    color: white;
+}
+.info{
+    display: flex;
+    gap: 10px;
+    margin-left: 500px
+}
+.info a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.photo1{
+    background-image: url(../images/shusha\ logistics.jpg);
+    width: 1470px;
+    height: 738px;
+}
+.shusha{
+    width: 1450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+.shusha a{
+    font-family: poppins;
+    color: #525252;
+    font-size: 14px;
+}
+ .shusha a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+ background-color: thistle;
+
+ }
+ .elaqe{
+    
+    width:30%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ .elaqe a{
+    background-color:#B90470 ;
+    padding:20px 40px;
+ }
+ .elaqe a:hover{
+    background-color: #B90470;
+ }
+ .photo1 h2{
+    font-size: 100px;
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+   margin-left: 80px;
+  
+ }
+ .yazi{
+    font-family: poppins;
+    
+    color: white;
+ }
+ .photo1 p{
+    width: 549px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+ }
+ .about{
+    color: white;
+    background-color: #B90470;
+    width: 200px;
+    
+    margin-left: 80px;
+     display:inline-block;
+    
+    text-align: center;
+    padding:20px;
+    box-sizing: border-box;
+ }
+ .photo1{
+    display: flex;
+    flex-direction: column;
+   justify-content: left;
+   
+ }
+ .photo1 p{
+    margin-left: 80px;
+ }
+ .logistic{
+    margin-top: 248px
+ }
+ .yazi1{
+   color: #B90470;
+   font-size: 14px;
+ }
+ .yazi1 + h2{
+   font-family: poppins;
+  font-size: 50px;
+ }
+  .section2F{
+   display: flex;
+   flex-direction: column;
+   padding-left:50px ;
+   
+   width: 50%;
+   height: 300px;
+   justify-content: center;
+  }
+  .section2{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   
+
+  }
+  .section2S{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   font-family: poppins;
+   
+  }
+  .section2A{
+   display: flex;
+   
+   width: 100%;
+  }
+  .section2Image{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  }
+.section2Image img{
+   width: 100%;
+
+}
+.section2Text{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   font-family: poppins;
+   font-size: 17px;
+   
+}
+.section2Text p{
+   margin: 50px;
+   margin-bottom: 0;
+} 
+.section3{
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   padding-top: 50px;
+   
+}
+.services{
+   color: #B90470;
+   font-family: poppins;
+   font-size: 25px;
+}
+.section3 h2{
+   font-family: poppins;
+   font-size: 50px;
+}
+.color{
+   background-color: #B90470;
+   width: 1460px;
+   height: 990.5px;
+   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+   margin-top: -200px;
+}
+.card{
+   box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.25);
+   width: 21.2%;
+  margin: 20px; 
+  position: relative;
+  z-index: 1;
+  background-color: white;
+
+}
+.card img{
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+}
+.card h4, .card p{
+   margin: 10px;
+}
+.card h4{
+   color: #B90470;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: poppins;
+   padding: 10px;
+}
+.card p{
+   color: #343A3E;
+
+font-family: poppins;
+font-size: 14px;
+padding: 10px;
+padding-bottom: 0;
+
+}
+.cards{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: flex-end;
+}
+.cards .card:nth-child(4){
+   top: -60px;
+}
+.cards .card:nth-child(2){
+   top: 60px;
+}
+.cards .card:nth-child(1){
+   top: 120px;
+}
+.cards .card:nth-child(7){
+   top: -60px;
+}
+.cards .card:nth-child(5){
+   top: 60px;
+}
+.prinsip{
+   color: white;
+   font-size: 20px;
+   font-family: poppins;
+  
+}
+.missiya{
+   color: white;
+   font-size: 50px;
+   font-weight: 500;
+   font-family: poppins;
+}
+.new{
+   padding-top: 25%;
+   padding-left: 5%;
+}
+.card2  p{
+  color: #525252;
+   font-family: poppins;
+   padding: 20px;
+}
+.card2{
+width: 380px;
+height: 450px;
+background-color: white;
+}
+.cards2{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+.card2 h4{
+   color: #B90470;
+   padding: 35px;
+}
+.card2 img{
+  margin-left: 220px;
+  padding-top: 25px;
+}
+
+.section4{
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   padding-top: 50px;
+}
+.Text2{
+   color: #B90470;
+font-family: poppins;
+font-size: 14px;
+font-weight: 300;
+}
+.section4 h2{
+   color: #343A3E;
+font-family: poppins;
+font-size: 50px;
+font-weight: 600;
+}
+.section4n{
+   width: 50%;
+  
+}
+
+.section4n1{
+   width: 50%;
+}
+.section4{
+   display: flex;
+   margin-top: 30px;
+}
+.section4n1 p{
+   color: #343A3E;
+
+font-family: poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.section4Img img{
+   width: 100%;
+   padding-top: 70px;
+}
